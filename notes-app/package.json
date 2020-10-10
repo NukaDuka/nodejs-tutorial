@@ -4,7 +4,7 @@
   "description": "Note-taking app",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "standard && node app.js"
   },
   "author": "Kartik Gokte",
   "license": "MIT",
@@ -13,6 +13,7 @@
   ],
   "dependencies": {
     "chalk": "^4.1.0",
-    "validator": "^13.1.17"
+    "validator": "^13.1.17",
+    "yargs": "^16.0.3"
   }
 }
